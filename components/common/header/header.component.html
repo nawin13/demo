@@ -1,0 +1,40 @@
+<header
+    [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8'|| router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/about-us-3' || router.url === '/doctors' || router.url === '/portfolio' || router.url === '/portfolio-details'}"
+>
+    <app-top-header></app-top-header>
+
+    <app-middle-header></app-middle-header>
+
+    <app-navbar></app-navbar>
+</header>
+
+<!-- Header for Home Demo - 4 
+<header
+    class="d-none"
+    [ngClass]="{'d-block': router.url === '/index-4' || router.url === '/about-us-3'}"
+>
+    <app-top-header></app-top-header>
+
+    <app-navbar></app-navbar>
+</header>
+-->
+<!-- Header for Home Demo - 5 & 6 & 7 
+<header
+    class="header-style-two d-none"
+    [ngClass]="{'d-block': router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/services-4' || router.url === '/services-5' || router.url === '/contact-us-2' || router.url === '/doctors'}"
+>
+    <app-top-header></app-top-header>
+
+    <app-navbar></app-navbar>
+</header>
+-->
+<!-- Header for Home Demo - 8 
+<header
+    class="header-style-three d-none"
+    [ngClass]="{'d-block': router.url === '/index-8' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-3' || router.url === '/portfolio' || router.url === '/portfolio-details'}"
+>
+    <app-top-header></app-top-header>
+
+    <app-navbar></app-navbar>
+</header>
+-->

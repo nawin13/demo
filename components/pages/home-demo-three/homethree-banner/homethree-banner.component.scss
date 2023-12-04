@@ -1,0 +1,409 @@
+.main-banner-item {
+    background-color: #eaffff;
+
+    .container-fluid {
+        padding: {
+            left: 0;
+            right: 0;
+        };
+    }
+}
+.ranked-box{
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+    background: url(https://img.freepik.com/free-photo/heavy-machines-construction-workers-working-building_181624-8234.jpg?size=626&ext=jpg&ga=GA1.1.1374434572.1701687461&semt=ais);
+}
+.ranked-box-1{
+    width: 600px;
+    margin-left: 30px;
+    height: 400px;
+    /* From https://css.glass */
+background: rgba(61, 86, 184, 0.25);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.2px);
+opacity: 0.9;
+-webkit-backdrop-filter: blur(3.2px);
+border: 1px solid rgba(61, 86, 184, 0.3);
+    background-color:#124390;
+  
+}
+.ranked-box h1{
+font-size: 25px;
+}
+
+.ranked-box p{
+    font-size: 15px;
+    line-height: normal;
+    color: black;
+    max-width: 500px;
+    margin: auto;
+    }
+.about-inner-box {
+    background-color: transparent;
+    border-radius: 10px;
+    position: absolute;
+    text-align: start;
+    max-width: 390px;
+    padding: 30px;
+    bottom: 10px;
+    left: 100px;
+
+    .content {
+        position: relative;
+        padding-left: 40px;
+
+        .icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            i {
+                font-size: 40px;
+                color: var(--white-color);
+            }
+        }
+        h3 {
+            margin-bottom: 10px;
+            color:white;
+            font: {
+                size: 40px;
+                weight: 400;
+            };
+        }
+        p {
+            color: var(--white-color);
+        }
+    }
+}
+.main-banner-content {
+    max-width: 645px;
+    margin-left: auto;
+
+    .sub-title {
+        position: relative;
+        margin-bottom: 18px;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 10px 20px 10px 42px;
+        color: var(--paragraph-color);
+        background-color: var(--white-color);
+        font: {
+            size: 15px;
+            weight: 500;
+        };
+        i {
+            transform: translateY(-50%);
+            font-style: italic;
+            position: absolute;
+            color: #14e49a;
+            margin-top: 2px;
+            left: 20px;
+            top: 50%;
+        }
+    }
+    h1 {
+        font-size: 70px;
+        margin-bottom: 15px;
+
+        span {
+            color: var(--main-color);
+        }
+    }
+    .default-btn {
+        margin-top: 15px;
+       
+    }
+}
+.main-banner-image {
+    text-align: center;
+    margin-left: 50px;
+
+    img {
+        border-radius: 0 0 0 100px;
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .main-banner-item {
+        padding: {
+            top: 60px;
+            bottom: 60px;
+        };
+        .container-fluid {
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+                right: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .main-banner-content {
+        max-width: 100%;
+        margin-left: 0;
+    
+        .sub-title {
+            padding: 7px 15px 7px 35px;
+            margin-bottom: 15px;
+            font-size: 13px;
+
+            i {
+                margin-top: 1px;
+                left: 15px;
+            }
+        }
+        h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .default-btn {
+            margin-top: 0;
+        }
+    }
+    .main-banner-image {
+        margin: {
+            left: 0;
+            top: 25px;
+        };
+        img {
+            border-radius: 0;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+    .main-banner-item {
+        .container-fluid {
+            max-width: 540px;
+        }
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .main-banner-item {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+        .container-fluid {
+            max-width: 720px;
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+                right: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .main-banner-content {
+        max-width: 100%;
+        margin-left: 0;
+    
+        .sub-title {
+            font-size: 14px;
+            margin-bottom: 15px;
+            padding: 10px 15px 10px 35px;
+            
+            i {
+                margin-top: 0;
+                left: 15px;
+            }
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .default-btn {
+            margin-top: 3px;
+        }
+    }
+    .main-banner-image {
+        margin: {
+            left: 0;
+            top: 25px;
+        };
+        img {
+            border-radius: 0;
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .main-banner-content {
+        max-width: 470px;
+    
+        h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+        .default-btn {
+            margin-top: 0;
+        }
+    }
+    .main-banner-image {
+        margin-left: 15px;
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .main-banner-content {
+        max-width: 560px;
+    
+        h1 {
+            font-size: 55px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .main-banner-image {
+        margin-left: 30px;
+    }
+
+}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {
+
+    .main-banner-item {
+        .container-fluid {
+            max-width: 1920px;
+        }
+    }
+
+}
+
+.chat_icon{
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+    width: 60px;
+    z-index: 1000;
+    cursor: pointer;
+}
+ .chatbot-box{
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    background-color: #79398a;
+    width: 400px;
+    height: 80vh;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 16px;
+    box-shadow: 0 0 11px rgba(0,0,0,0.9);
+    z-index: 100000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+    transform-origin: bottom;
+ }
+ .chatbot-box.active{
+    transform: scaleY(1);
+ }
+
+ #chatList{
+    height: calc(70vh - 120px);
+    overflow: auto;
+    position: relative;
+    -ms-overflow-style:none;
+    scrollbar-track-color: 0;
+
+ }
+#chatList::-webkit-scrollbar{
+    display: none;
+}
+
+#chatList ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+
+}
+
+ #chatList ul li.admin-message{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 20px;
+    margin: 15px 30% 15px 5px;
+    text-transform: capitalize;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+
+ }
+ #chatList ul li.client-message{
+    background-color: #00a1ba;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius:  20px 0 20px 20px;
+    margin: 15px  5px 15px 30%;
+    text-transform: capitalize;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+
+ }
+ .message-box-wrap{
+    position: relative;
+    margin-top: 40px;
+
+ }
+ .message-box input[type="text"],
+ .message-box select{
+    height: 40px;
+    padding: 10px;
+    line-height: 20px;
+    width: calc(100% - 70px);
+    border-radius: 10px;
+    border: 1px solid #bcb3b3;
+ 
+ }
+ .message-box button{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 1px solid #bcb3b3;
+    background-color: aqua;
+ }
+ #send{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    background-color: #ef6735ea;
+    border-radius: 50%;
+    border: 0 !important;
+    outline: 0 !important;
+    pointer-events: none;
+
+ }
+ .admin-client-message-wrap,
+#submit_info_form{
+ opacity: 0;
+ width: 0;
+ height: 0;
+ overflow:hidden;
+ margin: 0;
+ padding: 0;
+
+ }

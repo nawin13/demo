@@ -1,0 +1,43 @@
+<div class="covid-banner-area">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="covid-banner-content">
+                    <h1>Get Ready for Best Covid-19 Vaccination</h1>
+                    <p>Lorem ipsum dolor sit amet cons ectetur adipi tellus luctusne corper mattis ecteturp ulvinar dapibus leo conse ctetur adip iscing ectetur.</p>
+                    <ul class="banner-btn">
+                        <li>
+                            <a routerLink="/register" class="default-btn">Register for Vaccine</a>
+                        </li>
+                        <li>
+                            <button class="video-btn" (click)="ngxSmartModalService.getModal('popupOne').open()">
+                                <i class='bx bxs-right-arrow'></i> 
+                                <span>How Vaccines Work</span>
+                            </button>
+                        </li>
+                    </ul>
+                    <ul class="banner-btn-with-info">
+                        <li><img src="assets/images/covid/info1.jpg" class="rounded-circle" alt="image"></li>
+                        <li><img src="assets/images/covid/info2.jpg" class="rounded-circle" alt="image"></li>
+                        <li><img src="assets/images/covid/info3.jpg" class="rounded-circle" alt="image"></li>
+                        <li><img src="assets/images/covid/info4.jpg" class="rounded-circle" alt="image"></li>
+                        <li><i class='bx bx-plus'></i></li>
+                        <li class="title"><span>67.54k</span> Vaccination Recipient</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="covid-banner-image">
+                    <img src="assets/images/covid/banner.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video Popup -->
+<div class="video-popup">
+    <ngx-smart-modal #popupOne [identifier]="'popupOne'">
+        <iframe src="https://www.youtube.com/embed/ODfy2YIKS1M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </ngx-smart-modal>
+</div>

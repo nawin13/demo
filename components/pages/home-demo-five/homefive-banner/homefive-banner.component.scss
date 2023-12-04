@@ -1,0 +1,223 @@
+.skin-care-banner-area {
+    z-index: 1;
+    position: relative;
+    padding-top: 100px;
+    background-color: #eff8fb;
+    
+    .container-fluid {
+        padding: {
+            left: 30px;
+            right: 0;
+        };
+    }
+}
+.skin-care-banner-content {
+    padding-right: 10px;
+
+    .sub-title {
+        display: block;
+        margin-bottom: 15px;
+        color: var(--main-color2);
+        font: {
+            size: 17px;
+            weight: 600;
+            family: var(--font-family3);
+        };
+    }
+    h1 {
+        color: var(--black-color2);
+        margin-bottom: 12px;
+        font: {
+            size: 70px;
+            family: var(--font-family2);
+        };
+    }
+    p {
+        color: var(--paragraph-color2);
+        max-width: 690px;
+    }
+    .default-btn {
+        margin-top: 15px;
+    }
+}
+.skin-care-banner-shape {
+    left: 20px;
+    top: 100px;
+    z-index: -1;
+    position: absolute;
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .skin-care-banner-area {
+        padding-top: 260px;
+
+        .container-fluid {
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .skin-care-banner-content {
+        padding-right: 12px;
+        margin-bottom: 25px;
+    
+        .sub-title {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            max-width: 100%;
+        }
+        .default-btn {
+            margin-top: 0;
+        }
+    }
+    .skin-care-banner-shape {
+        left: 15px;
+        bottom: 5%;
+        top: auto;
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+    .skin-care-banner-content {
+        max-width: 540px;
+        margin: {
+            left: auto;
+            right: auto;
+        };
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .skin-care-banner-area {
+        padding-top: 230px;
+        
+        .container-fluid {
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .skin-care-banner-content {
+        max-width: 720px;
+        margin: {
+            left: auto;
+            right: auto;
+            bottom: 25px;
+        };
+        .sub-title {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 8px;
+        }
+        p {
+            max-width: 600px;
+        }
+        .default-btn {
+            margin-top: 0;
+        }
+    }
+    .skin-care-banner-shape {
+        left: 15px;
+        bottom: 5%;
+        top: auto;
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .skin-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: var(--bs-gutter-x,.75rem);
+            };
+        }
+    }
+    .skin-care-banner-content {
+        top: 10px;
+        max-width: 510px;
+        padding-right: 0;
+        position: relative;
+        margin: {
+            left: auto;
+            right: -35px;
+        };
+        .sub-title {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        h1 {
+            margin-bottom: 8px;
+            font-size: 45px;
+        }
+        p {
+            max-width: 100%;
+        }
+        .default-btn {
+            margin-top: 0;
+        }
+    }
+    .skin-care-banner-shape {
+        left: auto;
+        right: 30px;
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .skin-care-banner-content {
+        margin-top: 20px;
+
+        h1 {
+            font-size: 60px;
+        }
+        p {
+            max-width: 100%;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .skin-care-banner-shape {
+        top: 15px;
+    }
+}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {
+
+    .skin-care-banner-area {
+        .container-fluid {
+            max-width: 1920px;
+            padding-left: 100px;
+        }
+    }
+    .skin-care-banner-content {
+        margin-left: 70px;
+        
+        h1 {
+            font-size: 75px;
+        }
+    }
+
+}
